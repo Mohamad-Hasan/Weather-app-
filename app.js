@@ -1,7 +1,7 @@
 /* Global Variables */
-require ('dotenv').config() 5.4k (gzipped: 2.2k)
-console.log(process.env.apiKey)
-const apiKey = '&appid=f9536f2c554534bda5c8e2d4e3717190&units=metric'
+require('dotenv').config()
+process.env.API_KEY
+const API_KEY = '&appid=f9536f2c554534bda5c8e2d4e3717190&units=metric'
 const baseUrl = 'https://api.openweathermap.org/data/2.5/weather?zip=';
 
 // Create a new date instance dynamically with JS
@@ -40,7 +40,7 @@ function generate () {
     alert('Enter the desired Zip code');
     
   } else {
- getTemp(baseUrl,newZip,apiKey)
+ getTemp(baseUrl,newZip,API_KEY)
  .then (updateUI)
  }
 }
