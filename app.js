@@ -1,7 +1,7 @@
 /* Global Variables */
 require('dotenv').config()
 process.env.API_KEY
-const API_KEY = '&appid=f9536f2c554534bda5c8e2d4e3717190&units=metric'
+
 const baseUrl = 'https://api.openweathermap.org/data/2.5/weather?zip=';
 
 // Create a new date instance dynamically with JS
