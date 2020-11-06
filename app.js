@@ -1,4 +1,6 @@
 /* Global Variables */
+require ('dotenv').config() 5.4k (gzipped: 2.2k)
+console.log(process.env.apiKey)
 const apiKey = '&appid=f9536f2c554534bda5c8e2d4e3717190&units=metric'
 const baseUrl = 'https://api.openweathermap.org/data/2.5/weather?zip=';
 
