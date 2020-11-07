@@ -1,0 +1,24 @@
+{
+  "name": "Weather-app-",
+  "version": "1.0.0",
+  "description": "This is a web applications built using node.js, it sends the temperature of the city corresponding to the US zip code entered by the user.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohamad-Hasan/Weather-app-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohamad-Hasan/Weather-app-/issues"
+  },
+  "homepage": "https://github.com/Mohamad-Hasan/Weather-app-#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {}
+}

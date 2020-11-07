@@ -1,7 +1,7 @@
 /* Global Variables */
-require('dotenv').config()
-process.env.API_KEY
 
+require("dotenv").config();
+const apiKey = process.env.API_KEY
 const baseUrl = 'https://api.openweathermap.org/data/2.5/weather?zip=';
 
 // Create a new date instance dynamically with JS
@@ -40,7 +40,7 @@ function generate () {
     alert('Enter the desired Zip code');
     
   } else {
- getTemp(baseUrl,newZip,API_KEY)
+ getTemp(baseUrl,newZip,apiKey)
  .then (updateUI)
  }
 }
