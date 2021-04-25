@@ -126,7 +126,7 @@ hr{
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 481px) {
    #app{
     background-color: #347B98;
     font-family: 'Oswald', sans-serif;
